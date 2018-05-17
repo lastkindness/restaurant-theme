@@ -1,0 +1,9 @@
+container.offers
+    .container
+        .h4-header
+            h4 Delicious
+        h3.h3-header SPECIAL OFFERS
+
+        .offers__wrapper.grid.col__3
+            - for (var i=0; i<3; i++)
+                include ./offers_components/offer__card

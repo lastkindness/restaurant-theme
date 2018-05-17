@@ -15,6 +15,7 @@ body {
 
 .container {
   width: 1620px;
+  margin: 0 auto;
 }
 
 a {
@@ -23,7 +24,46 @@ a {
   }
 }
 
-h5 {
+.h3-header {
+  font-family: Montserrat, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: $color3;
+  text-align: center;
+  margin: 40px 0;
+  line-height: 48px;
+}
+
+.h4-header {
+  font-family: BrushScriptMT, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 74.02px;
+  color: $color2;
+  text-align: center;
+  h4 {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    &:before,
+    &:after {
+      position: absolute;
+      content: "";
+      width: 26px;
+      height: 2px;
+      background-color: $background2;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &:before {
+      left: -45px;
+    }
+    &:after {
+      right: -45px;
+    }
+  }
 }
 
 .h5-header {
@@ -34,6 +74,7 @@ h5 {
   line-height: 60px;
   margin: 25px 0;
   font-weight: 400;
+  text-align: center;
 }
 
 ul {
