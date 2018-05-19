@@ -2,12 +2,12 @@ include ./../../../components/buttons/button.pug
 
 .offer__card
     .offer__card__img
-        img(src=require('./templates/offers/offers_components/img/photo1.png'), alt="")
+        img(src=require('./templates/offers/offers_components/img/' + offerCardPhotos[i] + '.png'), alt="")
     .offer__card__content
         .offer__card__content__wrapper
-            h5.h5-header.offer__card__content__title Special Breakfest
+            h5.h5-header.offer__card__content__title= offerCardTitles[i]
             .offer__card__content__span Sandwich for a student
-            .offer__card__content__price 9$
+            .offer__card__content__price= offerCardPrices[i] + "$"
                 span.offer__card__content__price__subtitle for a one portion
             .button__wrapper
                 +button('Make an order', 'button').btn--order
