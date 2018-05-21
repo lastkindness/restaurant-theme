@@ -1,7 +1,6 @@
 @import "offers_components/offer__card";
 
 .offers {
-  &__wrapper {
-
-  }
+  display: block;
+  background-color: $background1;
 }
