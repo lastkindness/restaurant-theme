@@ -12,68 +12,187 @@ body {
   line-height: 24px;
 }
 
-.container {
-  width: 1620px;
-  margin: 0 auto;
-}
-
 a {
   &:hover {
     text-decoration: none;
   }
 }
 
-.h3-header {
+//titles
+.title {
   font-family: Montserrat, sans-serif;
-  font-size: 48px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
-  color: $color3;
-  text-align: center;
-  margin: 40px 0;
-  line-height: 48px;
-}
-
-.h4-header {
-  font-family: BrushScriptMT, sans-serif;
   font-size: 36px;
-  font-weight: 400;
-  line-height: 74.02px;
-  color: $color2;
+  letter-spacing: 1.2px;
+  color: $color1;
   text-align: center;
+  line-height: 28px;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: normal;
+    margin: 0.5em 0;
+  }
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 68px;
+  }
+  h3 {
+    font-size: 36px;
+  }
   h4 {
-    position: relative;
-    display: inline-block;
-    margin: 0;
-    &:before,
-    &:after {
-      position: absolute;
-      content: "";
-      width: 26px;
-      height: 2px;
-      background-color: $background2;
-      top: 50%;
-      transform: translateY(-50%);
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 22px;
+  }
+  h6 {
+    font-size: 18px;
+  }
+  //title modifications
+  .title {
+  //title fonts
+    &-montserrat {
+      font-family: Montserrat, sans-serif;
     }
-    &:before {
-      left: -45px;
+    &-brush-script {
+      font-family: BrushScriptMT, sans-serif;
     }
-    &:after {
-      right: -45px;
+    //title colors
+    &-white {
+      color: $color3;
+      &:before,
+      &:after {
+        background-color: $background4;
+      }
+    }
+    &-black {
+      color: $color1;
+      &:before,
+      &:after {
+        background-color: $background1;
+      }
+    }
+    &-equator {
+      color: $color2;
+      &:before,
+      &:after {
+        background-color: $background2;
+      }
+    }
+    //title weight
+    &-thin {
+      font-weight: 100;
+    }
+    &-extralight {
+      font-weight: 200;
+    }
+    &-ultralight {
+      font-weight: 300;
+    }
+    &-light {
+      font-weight: 400;
+    }
+    &-regular {
+      font-weight: 500;
+    }
+    &-medium {
+      font-weight: 600;
+    }
+    &-semibold {
+      font-weight: 700;
+    }
+    &-bold {
+      font-weight: 800;
+    }
+    &-extrabold {
+      font-weight: 900;
+    }
+    //title size
+    &-xs-small-text-size {
+      font-size: 16px;
+      line-height: 16px;
+    }
+    &-small-text-size {
+      font-size: 18px;
+      line-height: 18px;
+    }
+    &-standart-text-size {
+      font-size: 22px;
+      line-height: 22px;
+    }
+    &-x-standart-text-size {
+      font-size: 24px;
+      line-height: 24px;
+    }
+    &-pre-medium-text-size {
+      font-size: 28px;
+      line-height: 28px;
+    }
+    &-medium-text-size {
+      font-size: 30px;
+      line-height: 30px;
+    }
+    &-large-text-size {
+      font-size: 36px;
+      line-height: 36px;
+    }
+    &-x-large-text-size {
+      font-size: 48px;
+      line-height: 30px;
+    }
+    &-xm-large-text-size {
+      font-size: 56px;
+      line-height: 56px;
+    }
+    &-xx-large-text-size {
+      font-size: 60px;
+      line-height: 60px;
+    }
+    &-xxx-large-text-size {
+      font-size: 100px;
+      line-height: 100px;
+    }
+    //title position
+    &-left {
+      text-align: left;
+    }
+    &-right {
+      text-align: right;
+    }
+    &-center {
+      text-align: center;
+    }
+
+    //title other style
+    &-uppercase {
+      text-transform: uppercase;
+    }
+    &-dashed {
+      position: relative;
+      display: inline-block;
+      margin: 0;
+      &:before,
+      &:after {
+        position: absolute;
+        content: "";
+        width: 26px;
+        height: 2px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      &:before {
+        left: -45px;
+      }
+      &:after {
+        right: -45px;
+      }
     }
   }
-}
-
-.h5-header {
-  font-family: BrushScriptMT, sans-serif;
-  font-size: 60px;
-  color: $color2;
-  text-align: center;
-  line-height: 60px;
-  margin: 25px 0;
-  font-weight: 400;
-  text-align: center;
 }
 
 ul {

@@ -1,0 +1,175 @@
+Basic HTML
+-   <h1> to <h6> titles - http://www.khyberacademy.com/wp-content/uploads/2017/08/HTML-Headings-Tags-H1-to-H6.jpg
+    Теги <h1> to <h6> используются для определения заголовков HTML.
+    <h1> определяет наиболее важный заголовок. <h6> определяет наименее важный заголовок.
+-   <p> - https://dogear6.files.wordpress.com/2012/02/html-paragraph-example.jpg
+    Тег <p> определяет абзац.
+-   <hr> - http://www.java2s.com/Tutorials/HTML_CSSImage/Text/HTML_Text/Create_a_line_in_HTML_and_CSS_Example.PNG
+    Тег <hr> определяет тематический разрыв на HTML-странице.
+    Элемент <hr> используется для разделения содержимого (в виде горизонтальной полосы).
+-   <blockquote> - https://s3.amazonaws.com/impressivewebs/3787/nettuts-pullquote.jpg
+    Тег <blockquote> указывает раздел, который цитируется из другого источника.
+-   <cite> - http://www.java2s.com/Tutorials/HTML_CSSImage/Text/HTML_Text/Mark_text_as_citation_in_HTML_and_CSS_Example.PNG
+    Тег <cite> определяет название произведения (например, книгу, песню, фильм, телешоу, живопись, скульптуру и т. Д.).
+-   <code> http://joxi.ru/nAyJnGKTYggRYr
+    Тег <code> - это тег для отображения куска кода. Он определяет часть компьютерного кода.
+-   <del> - https://i0.wp.com/allsymbolic.ru/wp-content/uploads/2017/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D1%82%D0%BE%D1%87%D0%B5%D1%87%D0%BD%D1%8B%D0%B9-%D1%80%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA-3-24.jpg?resize=885%2C455
+    Тег <del> определяет текст, который планируют удалить из документа.
+-   <em> - https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/output-em-tag-in-html.png
+    Тег <em> является тегом фразы, определения. Он выделяется как курсивный текст.
+-   <i> - https://www.roseindia.net/tutorialfiles/31298.htmlItalic.jpg
+    Тег <i> определяет часть текста в альтернативном голосе или настроении. Содержимое тега <i> обычно отображается курсивом.
+    Тег <i> может использоваться для обозначения технического термина, фразы с другого языка, мысли или имени корабля и т. Д.
+    Используйте элемент <i> только тогда, когда не существует более подходящего семантического элемента.
+-   <kbd> - https://www.android-examples.com/wp-content/uploads/2016/03/kbd-tag.png
+    Тег <kbd> - это фразовый тег. Содержит в себе комбинации клавиш клавиатуры.
+-   <mark> - https://vegibit.com/wp-content/uploads/2014/06/html-mark-tag-example.png
+    Тег <mark> определяет отмеченный текст.
+    Используйте тег <mark>, если хотите выделить части текста.
+-   <meter> - https://javabeat.net/wp-content/uploads/2014/03/HTML5_meter.png
+    Тег <meter> определяет скалярное измерение в пределах известного диапазона или дробное значение.
+    Примеры: использование диска, релевантность результата запроса и т. Д.
+-   <pre> - http://joxi.ru/MAjB3OqC4jjDNA
+    Элемент <pre> определяет блок предварительно форматированного текста. Такой текст отображается обычно моноширинным шрифтом и со всеми пробелами между словами. 
+-   <progress> - http://htmlbook.ru/html/progress
+-   <q> - http://htmlbook.ru/html/q
+-   <ruby> - http://htmlbook.ru/html/ruby
+-   <rt> - http://htmlbook.ru/html/rt
+-   <samp> - http://htmlbook.ru/html/samp
+-   <strong> - http://htmlbook.ru/html/strong
+-   <time> - https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/output-time-tag-in-html.png
+    http://htmlbook.ru/html/time
+-   <var> - http://htmlbook.ru/html/var
+
+Forms and Input
+
+    Input
+-   <input type="button"> - https://www.android-examples.com/wp-content/uploads/2016/03/submit-button.png
+    Кнопка.
+-   <input type="checkbox"> - http://www.roseindia.net/tutorialfiles/26957.RadioCheckboxPick.gif
+    Флажки. Позволяют выбрать более одного варианта из предложенных.
+-   <input type="file"> - http://swatelier.info/at/screen/formFile1.png
+    Поле для ввода имени файла, который пересылается на сервер.
+-   <input type="image"> - http://joxi.ru/1A5G5BoHnD1QGm
+    это кнопка отправки в виде изображения
+-   <input type="password"> - http://qaru.site/img/0e6f16d5fcc17e93deb4e1d5a4995918.jpg
+    Обычное текстовое поле, но отличается от него тем, что все символы показываются звездочками. Предназначено для того, чтобы никто не подглядел вводимый пароль.
+-   <input type="radio"> - https://i.stack.imgur.com/Cfy42.png
+    Переключатели. Используются, когда следует выбрать один вариант из нескольких предложенных.
+-   <input type="reset"> - https://www.w3.org/wiki/images/8/8c/Input_reset01.png
+    Кнопка для возвращения данных формы в первоначальное значение.
+-   <input type="submit"> - https://www.w3.org/wiki/images/8/8c/Input_reset01.png
+    Кнопка для отправки данных формы на сервер.
+-   <input type="text"> - https://bitsofco.de/img/blog/10/1.png
+    Текстовое поле. Предназначено для ввода символов с помощью клавиатуры.
+-   <input type="color"> - https://i.ytimg.com/vi/MiCOVDrVH44/hqdefault.jpg
+    Виджет для выбора цвета.
+    Возможность стилизации пристутствует, однако изменить можно не многое.
+-   <input type="date"> - https://mdn.mozillademos.org/files/14909/date-picker-chrome.png
+    Поле для выбора календарной даты.
+    Возможность стилизации пристутствует, однако изменить можно не многое.
+-   <input type="datetime"> и <input type="datetime-local">  - http://justsolutionz.com/wp-content/uploads/2017/03/input-datetime-local.png
+    Указание даты и времени.
+    Возможность стилизации пристутствует, однако изменить можно не многое.
+-   <input type="email"> - https://i.stack.imgur.com/io1fo.png
+    Для адресов электронной почты.
+-   <input type="number"> - https://codepen.io/n3dst4/pen/qZdqQj/image/large.png
+    Ввод чисел.
+-   <input type="range"> - http://qaru.site/img/af24735439efd1553d25e940cdc68d01.jpg
+    Ползунок для выбора чисел в указанном диапазоне.
+-   <input type="search"> - https://meowni.ca/images/2015-10-22/type-search.png
+    Поле для поиска.
+-   <input type="tel"> - http://smartlanding.biz/wp-content/uploads/2014/11/imput-type-tel.png
+    Для телефонных номеров.
+-   <input type="time"> - http://blog.teamtreehouse.com/wp-content/uploads/2014/06/time.png
+    Для времени.
+-   <input type="url"> - https://i.ytimg.com/vi/BnVK7jecJ0o/hqdefault.jpg
+    Для веб-адресов.
+-   <input type="month"> и <input type="week"> - http://www.logeshpaul.com/images/posts/html-input-type.png
+    Выбор месяца и Выбор недели. 
+    Возможность стилизации пристутствует, однако изменить можно не многое.
+    
+    Other form elements
+-   <textarea> - https://csharpcorner-mindcrackerinc.netdna-ssl.com/UploadFile/c63ec5/get-data-from-a-textarea-in-php/Images/get-textarea-data2-in-php.jpg
+    Поле <textarea> представляет собой элемент формы для создания области, в которую можно вводить несколько строк текста. В отличие от тега <input> в текстовом поле допустимо делать переносы строк, они сохраняются при отправке данных на сервер.
+-   <button> - https://3.bp.blogspot.com/-1ummh1exsdo/ULS0y3Rk6lI/AAAAAAAABAI/FvOErI-4Hhw/s1600/Button.png
+    Тег <button> создает на веб-странице кнопки и по своему действию напоминает результат, получаемый с помощью тега <input> (с атрибутом type="button | reset | submit"). В отличие от этого тега, <button> предлагает расширенные возможности по созданию кнопок. Например, на подобной кнопке можно размещать любые элементы HTML, в том числе изображения. Используя стили можно определить вид кнопки путем изменения шрифта, цвета фона, размеров и других параметров.
+-   <select> и <option> - http://cdn.dzone.com/static/images/vaannila/struts1/HtmlSelectTag1Pic2.gif
+    Тег <select> позволяет создать элемент интерфейса в виде раскрывающегося списка, а также список с одним или множественным выбором, как показано далее. Конечный вид зависит от использования атрибута size тега <select>, который устанавливает высоту списка. Ширина списка определяется самым широким текстом, указанным в теге <option>, а также может изменяться с помощью стилей. Каждый пункт создается с помощью тега <option>, который должен быть вложен в контейнер <select>. 
+-   <optgroup> - http://xstandard.com/6380A2DD-A9EF-4264-AA93-010DF3FD6BFA/optgroup-example.gif
+    Тег <optgroup> представляет собой контейнер, внутри которого располагаются теги <option> объединенные в одну группу. Особенностью тега <optgroup> является то, что он не выделяется как обычный элемент списка, акцентируется с помощью жирного начертания, а все элементы, входящие в этот контейнер, смещаются вправо от своего исходного положения.
+-   <label> - https://img.viralpatel.net/2009/09/html-textbox-label-text.png
+    Тег <label> устанавливает связь между определенной меткой, в качестве которой обычно выступает текст, и элементом формы (<input>, <select>, <textarea>). Такая связь необходима, чтобы изменять значения элементов формы при нажатии курсором мыши на текст. Кроме того, с помощью <label> можно устанавливать горячие клавиши на клавиатуре и переходить на активный элемент подобно ссылкам.
+-   <fieldset> and <legend> - http://htmlbook.ru/html/fieldset
+-   <datalist> - http://htmlbook.ru/html/datalist
+    возможности стилизации <datalist> - ограничены
+-   <output> - http://htmlbook.ru/html/output
+-   <iframe> - http://htmlbook.ru/html/iframe
+    При необходимости есть возможность изменить стилизацию полос прокрутки.
+    
+Images
+-   <figure> - http://htmlbook.ru/html/figure
+-   <map> - http://htmlbook.ru/html/map
+-   <area> - http://htmlbook.ru/html/area
+    https://docs.oasis-open.org/dita/v1.2/os/spec/langref/images/imagemapworld.jpg
+-   <figure> - http://htmlbook.ru/html/figure
+-   <figcaption> - http://htmlbook.ru/html/figcaption
+-   <img> <canvas> <svg> <picture> - не вижу смысла в базовой стилизации
+
+Audio / Video
+-   <audio> - http://htmlbook.ru/html/audio
+-   <video> - http://htmlbook.ru/html/video
+-   <embed> - http://htmlbook.ru/html/embed
+-   <object> - http://htmlbook.ru/html/object
+Links
+-   <a> - https://www.homeandlearn.co.uk/WD/images/chapter4/index_page_links.gif
+    Тег <a> является одним из важных элементов HTML и предназначен для создания ссылок. В зависимости от присутствия атрибутов name или href тег <a> устанавливает ссылку или якорь. Якорем называется закладка внутри страницы, которую можно указать в качестве цели ссылки. При использовании ссылки, которая указывает на якорь, происходит переход к закладке внутри веб-страницы.
+-   <nav> - http://www.webcodegeeks.com/wp-content/uploads/2015/03/ex4.png
+    Тег <nav> задает навигацию по сайту. Если на странице несколько блоков ссылок, то в <nav> обычно помещают приоритетные ссылки. Также допустимо использовать несколько тегов <nav> в документе. Запрещается вкладывать <nav> внутрь <address>.
+
+Lists
+-   <ul> + <li> - https://i.ytimg.com/vi/rRgELhaCo5Q/maxresdefault.jpg
+    Тег <ul> устанавливает маркированный список. Каждый элемент списка должен начинаться с тега <li>. Если к тегу <ul> применяется таблица стилей, то элементы <li> наследуют эти свойства.
+-   <ol> + <li> - https://i.ytimg.com/vi/rRgELhaCo5Q/maxresdefault.jpg
+    Тег <ol> устанавливает нумерованный список. Каждый элемент списка должен начинаться с тега <li>. Если к тегу <ol> применяется таблица стилей, то элементы <li> наследуют эти свойства.
+-   <dl> + <dt>, <dd> - http://htmlbook.ru/html/dl
+-   <command> + <menu> + <menuitem> - http://joxi.ru/MAjB3OqC4jXLRA http://www.internet-technologies.ru/articles/obzor-elementov-html5-menu-i-menuitem.html
+    Тег <menu> предназначен для отображения списка пунктов меню. Аналогично тегам <ol> и <ul> внутри контейнера <menu> список формируется с помощью тегов <li>. В HTML4 тег <menu> вышел из употребления, вместо него рекомендуется использовать тег <ul>. В HTML5 тег <menu> вновь включен, но уже в другом качестве. Теперь он выступает контейнером для тега <command> и создания меню. В HTML5 <menu> служит прежде всего для создания собственных контекстных меню (работает в новых FF) и тулбаров (насколько я в курсе, нативно пока не работает нигде, но можно эмульнуть с помощью CSS). Нужен в основном для веб-приложений (напр. на dabblet-е он "в тему"). Как правило, описывает действия, которые можно совершать прямо на текущей странице, никуда не уходя.
+    Разница с навигацией (<nav>) — как раз то, куда можно перейти (разделы сайта, подразделы статьи и т.п.), больше подходит именно для сайтов. Основной смысл группировки ссылок в <nav> — улучшение доступности контента (напр. возможность скринридера для слепых пропустить навигационную секцию, перейдя сразу к основному содержанию, а по команде пользователя вернуться к ней).
+    Не вижу смысла в стилизации <menu> так как он не поддерживается многими браузерами и неиспользуем на практике.
+
+Tables
+-   <table> + <tr> + <td> - https://www.w3.org/TR/html401/images/mergedcells.gif
+    Элемент <table> служит контейнером для элементов, определяющих содержимое таблицы. Любая таблица состоит из строк и ячеек, которые задаются с помощью тегов <tr> и <td>. Внутри <table> допустимо использовать следующие элементы: <caption>, <col>, <colgroup>, <tbody>, <td>, <tfoot>, <th>, <thead> и <tr>.
+-   <caption> - http://htmlbook.ru/files/images/html/tag_caption_1.png
+    Тег <caption> предназначен для создания заголовка к таблице и может размещаться только внутри контейнера <table>, причем сразу после открывающего тега. Такой заголовок представляет собой текст, по умолчанию отображаемый перед таблицей и описывающий ее содержание.
+-   <th> - http://htmlbook.ru/files/images/html/tag_caption_1.png
+    Тег <th> предназначен для создания одной ячейки таблицы, которая обозначается как заголовочная. Текст в такой ячейке отображается браузером обычно жирным шрифтом и выравнивается по центру. Тег <th> должен размещаться внутри контейнера
+    <tr>, который в свою очередь располагается внутри тега <table>.
+-   <thead> - https://i.stack.imgur.com/6b97j.png
+    Элемент <thead> предназначен для хранения одной или нескольких строк, которые представлены вверху таблицы. Допустимо использовать не более одного элемента <thead> в пределах одной таблицы, и он должен идти в исходном коде сразу после тега <table>. В <thead> помещается <th>
+-   <tbody> - https://i.stack.imgur.com/eLZvt.png
+    Элемент <tbody> предназначен для хранения одной или нескольких строк таблицы. Это позволяет создавать структурные блоки, к которым можно применять единое оформление через стили, а также управлять их видом через скрипты.
+    <tbody> помещается <tr> <td>
+-   <tfoot> - https://www.w3.org/wiki/images/5/5a/Tfoot01.png
+    Элемент <tfoot> предназначен для хранения одной или нескольких строк, которые представлены внизу таблицы. Хотя тег <tfoot> в исходном коде должен быть определен до тега <tbody>, браузеры отображают его в самом низу таблицы.
+
+Styles and Semantics
+-   <div> 
+    Универсальный блок. Элемент <div> является блочным элементом и предназначен для выделения фрагмента документа с целью изменения вида содержимого. Как правило, вид блока управляется с помощью стилей. Чтобы не описывать каждый раз стиль внутри тега, можно выделить стиль во внешнюю таблицу стилей, а для тега добавить атрибут class или id с именем селектора.
+    Как и при использовании других блочных элементов, содержимое тега <div> всегда начинается с новой строки. После него также добавляется перенос строки. Не вижу необходимости в стилизации.
+-   <span> 
+    Универсальный блок. Тег <span> предназначен для определения строчных элементов документа. В отличие от блочных элементов, таких как <table>, <p> или <div>, с помощью тега <span> можно выделить часть информации внутри других тегов и установить для нее свой стиль. Например, внутри абзаца (тега <p>) можно изменить цвет и размер первой буквы, если добавить начальный и конечный тег <span> и определить для него стиль текста. Чтобы не описывать каждый раз стиль внутри тега, можно выделить стиль во внешнюю таблицу стилей, а для тега добавить атрибут class или id с именем селектора. Не вижу необходимости в стилизации.
+-   <header> - https://i.stack.imgur.com/oI6pM.jpg
+    Тег <header> задает «шапку» сайта или раздела, в которой обычно располагается заголовок лого и меню.
+-   <footer> - https://s3.envato.com/files/228684646/Screen-Shot/screen-shot-7.jpg
+    Тег <footer> задаёт «подвал» сайта или раздела, в нём может располагаться имя автора, дата документа, контактная и правовая информация.
+-   <article> - https://www.w3.org/wiki/images/1/1d/Article02.png
+    Тег <article> задает содержание сайта вроде новости, статьи, записи блога, форума или др.
+-   <aside> - https://i.stack.imgur.com/UYdAo.jpg
+    Определяет блок сбоку от контента для размещения рубрик, ссылок на архив, меток и другой информации. Такой блок, как правило, называется «сайдбар» или «боковая панель».
+-   <details> + <summary>  - http://html5doctor.com/wp-content/uploads/2011/08/nice-details.jpg
+    Тег <details> используется для хранения информации, которую можно скрыть или показать по требованию пользователя. По умолчанию содержимое тега не отображается, для изменения статуса применяется атрибут open.
+    <summary>  - http://htmlbook.ru/html/summary
+-   <dialog> - https://htmlhook.ru/html5-dialog-v-dokumente.html
+    ег dialog представляет собой диалоговое окно на веб-странице. Элемент dialog может оформляться свойствами CSS.

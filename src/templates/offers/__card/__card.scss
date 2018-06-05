@@ -1,14 +1,14 @@
-.offer {
+.offers {
   &__card {
     width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    &__content {
+    &-content {
       position: relative;
       padding: 0 35px;
-      &__wrapper {
+      &-wrapper {
         position: relative;
         padding: 15px 30px 30px;
         background-color: $background4;
@@ -17,7 +17,7 @@
         transition: 0.3s all;
         bottom: 65px;
       }
-      &__span {
+      &-span {
         text-align: center;
         font-family: Montserrat;
         font-size: 24px;
@@ -25,7 +25,7 @@
         line-height: 27.53px;
         letter-spacing: 0.44px;
       }
-      &__price {
+      &-price {
         font-family: Montserrat;
         font-size: 48px;
         font-weight: 700;
@@ -33,7 +33,7 @@
         line-height: 27.53px;
         text-align: center;
         margin-top: 15px;
-        &__subtitle {
+        &-subtitle {
           font-family: Montserrat;
           font-size: 16px;
           font-weight: 300;
@@ -44,7 +44,7 @@
         }
       }
     }
-    &__img {
+    &-img {
       width: auto;
       height: auto;
       position: relative;
@@ -61,20 +61,20 @@
         width: 100%;
       }
     }
-    .button__wrapper {
+    .button {
       margin-top: 30px;
     }
     &:hover {
       cursor: pointer;
-      .offer {
+      .offers {
         &__card {
-          &__content {
-            &__wrapper {
+          &-content {
+            &-wrapper {
               background-color: $background3;
               transition: 0.3s all;
             }
-            &__span,
-            &__price {
+            &-span,
+            &-price {
               color: $color3;
               transition: 0.3s all;
             }

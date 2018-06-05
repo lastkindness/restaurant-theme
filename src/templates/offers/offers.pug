@@ -1,11 +1,12 @@
 container.offers
     .container
-        .h4-header
-            h4 Delicious
-        h3.h3-header SPECIAL OFFERS
+        .title
+            h3.title-large-text-size.title-brush-script.title-equator.title-dashed Delicious
+        .title
+            h4.title-montserrat.title-white.title-x-large-text-size.title-uppercase.title-semibold SPECIAL OFFERS
         .offers__wrapper.grid.col__3
             - var offerCardPhotos = ['photo1', 'photo2', 'photo3'];
             - var offerCardTitles = ['Special Breakfest', 'Special Lunch', 'Special Dinner'];
             - var offerCardPrices = ['9', '21', '13'];
             - for (var i=0; i<3; i++)
-                include ./offers_components/offer__card
+                include __card/__card

@@ -1,0 +1,89 @@
+Basic HTML
+-   <h1> to <h6> titles - http://www.khyberacademy.com/wp-content/uploads/2017/08/HTML-Headings-Tags-H1-to-H6.jpg
+    Теги <h1> to <h6> используются для определения заголовков HTML.
+    <h1> определяет наиболее важный заголовок. <h6> определяет наименее важный заголовок.
+-   <p> - https://dogear6.files.wordpress.com/2012/02/html-paragraph-example.jpg
+    Тег <p> определяет абзац.
+-   <hr> - http://www.java2s.com/Tutorials/HTML_CSSImage/Text/HTML_Text/Create_a_line_in_HTML_and_CSS_Example.PNG
+    Тег <hr> определяет тематический разрыв на HTML-странице.
+    Элемент <hr> используется для разделения содержимого (в виде горизонтальной полосы).
+-   <blockquote> - https://s3.amazonaws.com/impressivewebs/3787/nettuts-pullquote.jpg
+    Тег <blockquote> указывает раздел, который цитируется из другого источника.
+-   <cite> - http://www.java2s.com/Tutorials/HTML_CSSImage/Text/HTML_Text/Mark_text_as_citation_in_HTML_and_CSS_Example.PNG
+    Тег <cite> определяет название произведения (например, книгу, песню, фильм, телешоу, живопись, скульптуру и т. Д.).
+-   <code> http://joxi.ru/nAyJnGKTYggRYr
+    Тег <code> - это тег для отображения куска кода. Он определяет часть компьютерного кода.
+-   <del> - https://i0.wp.com/allsymbolic.ru/wp-content/uploads/2017/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D1%82%D0%BE%D1%87%D0%B5%D1%87%D0%BD%D1%8B%D0%B9-%D1%80%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA-3-24.jpg?resize=885%2C455
+    Тег <del> определяет текст, который планируют удалить из документа.
+-   <em> - https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/output-em-tag-in-html.png
+    Тег <em> является тегом фразы, определения. Он выделяется как курсивный текст.
+-   <i> - https://www.roseindia.net/tutorialfiles/31298.htmlItalic.jpg
+    Тег <i> определяет часть текста в альтернативном голосе или настроении. Содержимое тега <i> обычно отображается курсивом.
+    Тег <i> может использоваться для обозначения технического термина, фразы с другого языка, мысли или имени корабля и т. Д.
+    Используйте элемент <i> только тогда, когда не существует более подходящего семантического элемента.
+-   <kbd> - https://www.android-examples.com/wp-content/uploads/2016/03/kbd-tag.png
+    Тег <kbd> - это фразовый тег. Содержит в себе комбинации клавиш клавиатуры.
+-   <mark> - https://vegibit.com/wp-content/uploads/2014/06/html-mark-tag-example.png
+    Тег <mark> определяет отмеченный текст.
+    Используйте тег <mark>, если хотите выделить части текста.
+-   <meter> - https://javabeat.net/wp-content/uploads/2014/03/HTML5_meter.png
+    Тег <meter> определяет скалярное измерение в пределах известного диапазона или дробное значение.
+    Примеры: использование диска, релевантность результата запроса и т. Д.
+-   <pre> - http://joxi.ru/MAjB3OqC4jjDNA
+    Элемент <pre> определяет блок предварительно форматированного текста. Такой текст отображается обычно моноширинным шрифтом и со всеми пробелами между словами. 
+-   <progress> - http://htmlbook.ru/html/progress
+-   <q> - http://htmlbook.ru/html/q
+-   <ruby> - http://htmlbook.ru/html/ruby
+-   <rt> - http://htmlbook.ru/html/rt
+-   <samp> - http://htmlbook.ru/html/samp
+-   <strong> - http://htmlbook.ru/html/strong
+-   <time> - https://www.wikitechy.com/step-by-step-html-tutorials/img/html-images/output-time-tag-in-html.png
+    http://htmlbook.ru/html/time
+-   <var> - http://htmlbook.ru/html/var
+
+Forms and Input
+-   <input type="button"> - https://www.android-examples.com/wp-content/uploads/2016/03/submit-button.png
+    Кнопка.
+-   <input type="checkbox"> - http://www.roseindia.net/tutorialfiles/26957.RadioCheckboxPick.gif
+    Флажки. Позволяют выбрать более одного варианта из предложенных.
+-   <input type="file"> - http://swatelier.info/at/screen/formFile1.png
+    Поле для ввода имени файла, который пересылается на сервер.
+-   <input type="image"> - http://joxi.ru/1A5G5BoHnD1QGm
+    это кнопка отправки в виде изображения
+-   <input type="password"> - http://qaru.site/img/0e6f16d5fcc17e93deb4e1d5a4995918.jpg
+    Обычное текстовое поле, но отличается от него тем, что все символы показываются звездочками. Предназначено для того, чтобы никто не подглядел вводимый пароль.
+-   <input type="radio"> - https://i.stack.imgur.com/Cfy42.png
+    Переключатели. Используются, когда следует выбрать один вариант из нескольких предложенных.
+-   <input type="reset"> - https://www.w3.org/wiki/images/8/8c/Input_reset01.png
+    Кнопка для возвращения данных формы в первоначальное значение.
+-   <input type="submit"> - https://www.w3.org/wiki/images/8/8c/Input_reset01.png
+    Кнопка для отправки данных формы на сервер.
+-   <input type="text"> - https://bitsofco.de/img/blog/10/1.png
+    Текстовое поле. Предназначено для ввода символов с помощью клавиатуры.
+-   <input type="color"> - https://i.ytimg.com/vi/MiCOVDrVH44/hqdefault.jpg
+    Виджет для выбора цвета.
+    Возможность стилизации пристутствует, однако изменить можно не многое.
+-   <input type="date"> - https://mdn.mozillademos.org/files/14909/date-picker-chrome.png
+    Поле для выбора календарной даты.
+    Возможность стилизации пристутствует, однако изменить можно не многое.
+-   <input type="datetime"> и <input type="datetime-local">  - http://justsolutionz.com/wp-content/uploads/2017/03/input-datetime-local.png
+    Указание даты и времени.
+    Возможность стилизации пристутствует, однако изменить можно не многое.
+-   <input type="email"> - https://i.stack.imgur.com/io1fo.png
+    Для адресов электронной почты.
+-   <input type="number"> - https://codepen.io/n3dst4/pen/qZdqQj/image/large.png
+    Ввод чисел.
+-   <input type="range"> - http://qaru.site/img/af24735439efd1553d25e940cdc68d01.jpg
+    Ползунок для выбора чисел в указанном диапазоне.
+-   <input type="search"> - https://meowni.ca/images/2015-10-22/type-search.png
+    Поле для поиска.
+-   <input type="tel"> - http://smartlanding.biz/wp-content/uploads/2014/11/imput-type-tel.png
+    Для телефонных номеров.
+-   <input type="time"> - http://blog.teamtreehouse.com/wp-content/uploads/2014/06/time.png
+    Для времени.
+-   <input type="url"> - https://i.ytimg.com/vi/BnVK7jecJ0o/hqdefault.jpg
+    Для веб-адресов.
+-   <input type="month"> и <input type="week"> - http://www.logeshpaul.com/images/posts/html-input-type.png
+    Выбор месяца и Выбор недели. 
+    Возможность стилизации пристутствует, однако изменить можно не многое.
+    
