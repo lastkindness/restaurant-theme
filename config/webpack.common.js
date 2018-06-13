@@ -9,7 +9,7 @@ export default {
     output: {
         path: DIST,
         publicPath: RELATIVE_PATH,
-        filename: `js/app${HASH}.js`
+        filename: `js/app.js` /*${HASH}*/
     },
     module: {
         rules: loaders

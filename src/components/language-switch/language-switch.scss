@@ -1,0 +1,53 @@
+.language-switch {
+  position: absolute;
+  top: calc(100% - 10px);
+  right: 60px;
+  transform: translateY(-50%);
+  &_list {
+    position: relative;
+    transition: 0.3s all;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    &:after {
+      display: block;
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 15px;
+      transform: translateY(-50%);
+      color: $color3;
+      width: 18px;
+      height: 15px;
+      background-color: $color3;
+      mask-image: url('./../../generals/common-img/angle-down.svg');
+      mask-repeat: no-repeat;
+    }
+  }
+  &_item {
+    padding-right: 25px;
+    padding-left: 10px;
+    order: 2;
+    opacity: 0;
+    background-color: $background1;
+    transition: 0.3s all;
+    &_active {
+      order: 1;
+      opacity: 1;
+    }
+  }
+  &_item-link {
+    color: $color3;
+    &.active {
+
+    }
+  }
+  &:hover {
+    .language-switch_item {
+      opacity: 1;
+      transition: 0.3s all;
+    }
+  }
+}

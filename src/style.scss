@@ -2,14 +2,14 @@
 //@import "~bootstrap/scss/bootstrap-grid";
     
 // generals
+@import "generals/reset";
 @import "generals/typo";
 @import "generals/common";
 @import "generals/variables";
 @import "generals/grid";
 
 // components
-@import "components/buttons/button";
-@import "components/header/header";
+@import "components/styles.scss";
 
 //templates
-@import "templates/offers/styles";
+//@import "templates/offers/styles";

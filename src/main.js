@@ -1,7 +1,10 @@
 import './style.scss';
 
-// import Header from './components/header';
+ import Trigger from './generals/trigger';
+
+ import LanguageSwitch from './components/language-switch/language-switch';
 
 document.addEventListener('DOMContentLoaded', () => {
-//     new Header(); 
+     new Trigger();
+     new LanguageSwitch();
 });

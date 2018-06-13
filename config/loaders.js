@@ -16,7 +16,7 @@ export default [
             {
                 loader: 'url-loader',
                 options: {
-                    name: `images/[path][name]${HASH}.[ext]`,
+                    name: `images/[path][name].[ext]`, /*${HASH}*/
                     limit: 8192
                 }
             },
@@ -46,8 +46,8 @@ export default [
                 {
                     loader: "css-loader",
                     options: {
-                        sourceMap: NODE_ENV === 'dev',
-                        minimize: NODE_ENV === 'build'
+                        sourceMap: NODE_ENV === 'dev'
+                        /*minimize: NODE_ENV === 'build'*/
                     }
                 },
                 {
@@ -81,4 +81,4 @@ export default [
     }
 ];
 
-export const ETPStyles = new ExtractTextPlugin(`css/style${NODE_ENV === 'build' ? '.[contenthash]' : ''}.css`);
+export const ETPStyles = new ExtractTextPlugin(`style.css`); /*${NODE_ENV === 'build' ? '.[contenthash]' : ''}*/

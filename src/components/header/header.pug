@@ -5,31 +5,26 @@ header.header
                 .header__burger-span
                 .header__burger-span
                 .header__burger-span
-            .header__logo
-                span Brie
-                span Restaurant
+            .header__logo logo
             .header__nav
                 ul.header__nav-list.grid.col__6
                     li.header__nav-item
-                        a.header__nav-link home
+                        a.header__nav-link(href="#") home
                     li.header__nav-item
-                        a.header__nav-link our story
+                        a.header__nav-link(href="#") our story
                     li.header__nav-item
-                        a.header__nav-link special offers
+                        a.header__nav-link(href="#") special offers
                         ul.header__nav-list
                             li.header__nav-item
-                                a.header__nav-link special offers
+                                a.header__nav-link(href="#") special offers
                             li.header__nav-item
-                                a.header__nav-link new special offer
+                                a.header__nav-link(href="#") new special offer
                             li.header__nav-item
-                                a.header__nav-link new special offer
+                                a.header__nav-link(href="#") new special offer
                     li.header__nav-item
-                        a.header__nav-link delicious
+                        a.header__nav-link(href="#") delicious
                     li.header__nav-item
-                        a.header__nav-link reservation
+                        a.header__nav-link(href="#") reservation
                     li.header__nav-item
-                        a.header__nav-link gallery
-            .header__language
-                ul.header__language-list
-                    li.header__language-item en
-                    li.header__language-item ru
+                        a.header__nav-link(href="#") gallery
+    include ../language-switch/language-switch
