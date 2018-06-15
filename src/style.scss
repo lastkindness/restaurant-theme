@@ -1,15 +1,16 @@
+@import "./generals/description.scss";
+
+@import "./generals/table-of-contents";
+
+// normalize
+@import "./generals/normalize.css";
+
 // libs
-//@import "~bootstrap/scss/bootstrap-grid";
     
 // generals
-@import "generals/reset";
-@import "generals/typo";
-@import "generals/common";
 @import "generals/variables";
-@import "generals/grid";
 
 // components
 @import "components/styles.scss";
 
 //templates
-//@import "templates/offers/styles";
