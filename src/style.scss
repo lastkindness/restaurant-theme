@@ -2,15 +2,6 @@
 
 @import "./generals/table-of-contents";
 
-// normalize
+// 1.0 Normalize
+// Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 @import "./generals/normalize.css";
-
-// libs
-    
-// generals
-@import "generals/variables";
-
-// components
-@import "components/styles.scss";
-
-//templates
