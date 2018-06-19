@@ -1,0 +1,111 @@
+@import "../../generals/variables";
+
+.header {
+  background-color: $background1;
+  &-logo {
+    img {
+      max-height: 24px;
+    }
+  }
+  &-nav {
+    &-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      &-item {
+        height: 74px;
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        & > a {
+          font-family: "Open Sans", sans-serif;
+          font-size: 14px;
+          font-weight: 600;
+          letter-spacing: 2.8px;
+          line-height: 19px;
+          text-transform: uppercase;
+          color: #919191;
+          padding: 0 25px;
+          text-decoration: none;
+          &:hover {
+            color: #ffffff;
+          }
+        }
+        &.hover {
+          color: #ffffff;
+        }
+        &.active {
+          & > a {
+            color: #e9a92d;
+          }
+        }
+        &:before, &:last-of-type:after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 1px;
+          height: 26px;
+          left: 0;
+          background-color: #3c3c3c;
+        }
+        &:last-of-type:after {
+          left: unset;
+          right: 0;
+        }
+        &-dropdown {
+          position: absolute;
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+          background-color: rgba(#000000, .4);
+          white-space: nowrap;
+          ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+          }
+          li {
+            position: relative;
+            padding: 0 27px;
+          }
+          a {
+            color: #ffffff;
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 3.78px;
+            line-height: 19px;
+            display: inline-block;
+            padding: 14px 0 12px 0;
+            text-decoration: none;
+            border-bottom: 1px solid #3c3c3c;
+            width: 100%;
+            &:hover {
+              color: darken(#ffffff, 15%);
+            }
+          }
+          li:last-of-type {
+            a {
+              border-bottom: none;
+            }
+          }
+        }
+        & > &-dropdown {
+          top: 100%;
+          left: 0;
+          & > ul {
+            & > li {
+              & > a {
+
+              }
+              & > .header-nav-list-item-dropdown {
+                position: absolute;
+                top: 0;
+                left: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

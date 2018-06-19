@@ -5,3 +5,10 @@
 // 1.0 Normalize
 // Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 @import "./generals/normalize.css";
+
+// 2.0 Bootstrap grid
+@import "~bootstrap/scss/bootstrap-grid";
+
+// 4.0 Components
+// 4.1 Header
+@import "components/header/header";
