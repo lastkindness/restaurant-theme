@@ -9,6 +9,13 @@
 // 2.0 Bootstrap grid
 @import "~bootstrap/scss/bootstrap-grid";
 
+// 3.0 Typo
+@import "./generals/typo";
+
 // 4.0 Components
-// 4.1 Header
+// 4.1 Page title
+@import "components/page-title/page-title";
+
+
+// 4.2 Header
 @import "components/header/header";
