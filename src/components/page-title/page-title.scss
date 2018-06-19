@@ -1,0 +1,27 @@
+@import "../../generals/variables";
+
+.pagetitle {
+  background-color: $dark;
+  h1 {
+    color: $white;
+    position: relative;
+    margin: 0;
+    padding-left: 13px;
+    &:before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      height: 65%;
+      width: 3px;
+      background-color: $themeColor;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  p {
+    color: $lightColor;
+    margin: 0;
+    max-width: 428px;
+  }
+}

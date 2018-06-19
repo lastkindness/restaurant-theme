@@ -3,32 +3,29 @@
 @font-face {
   font-family: "Open Sans";
   src:
-          local("Open Sans"),
-          local("OpenSans"),
-          local("Open-Sans"),
-          url(OpenSans/OpenSans-Light.ttf);
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src:
-          local("Open Sans"),
-          local("OpenSans"),
-          local("Open-Sans"),
-          url(OpenSans/OpenSans-LightItalic.ttf);
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src:
-    local("Open Sans"),
     local("OpenSans"),
     local("Open-Sans"),
-    url(OpenSans/OpenSans-Regular.ttf);
+    url("./OpenSans/OpenSans-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+    local("OpenSans"),
+    local("Open-Sans"),
+    url("./OpenSans/OpenSans-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src:
+    local("OpenSans"),
+    local("Open-Sans"),
+    url("./OpenSans/OpenSans-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
@@ -36,10 +33,9 @@
 @font-face {
   font-family: "Open Sans";
   src:
-          local("Open Sans"),
-          local("OpenSans"),
-          local("Open-Sans"),
-          url(OpenSans/OpenSans-Italic.ttf);
+    local("OpenSans"),
+    local("Open-Sans"),
+    url("./OpenSans/OpenSans-Italic.ttf");
   font-weight: 400;
   font-style: italic;
 }
@@ -47,10 +43,9 @@
 @font-face {
   font-family: "Open Sans";
   src:
-          local("Open Sans"),
-          local("OpenSans"),
-          local("Open-Sans"),
-          url(OpenSans/OpenSans-Semibold.ttf);
+    local("OpenSans"),
+    local("Open-Sans"),
+    url("./OpenSans/OpenSans-Semibold.ttf");
   font-weight: 600;
   font-style: normal;
 }
@@ -58,10 +53,9 @@
 @font-face {
   font-family: "Open Sans";
   src:
-          local("Open Sans"),
-          local("OpenSans"),
-          local("Open-Sans"),
-          url(OpenSans/OpenSans-SemiboldItalic.ttf);
+    local("OpenSans"),
+    local("Open-Sans"),
+    url("./OpenSans/OpenSans-SemiboldItalic.ttf");
   font-weight: 600;
   font-style: italic;
 }
@@ -69,10 +63,9 @@
 @font-face {
   font-family: "Open Sans";
   src:
-          local("Open Sans"),
-          local("OpenSans"),
-          local("Open-Sans"),
-          url(OpenSans/OpenSans-Bold.ttf);
+    local("OpenSans"),
+    local("Open-Sans"),
+    url("./OpenSans/OpenSans-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
@@ -80,10 +73,9 @@
 @font-face {
   font-family: "Open Sans";
   src:
-          local("Open Sans"),
-          local("OpenSans"),
-          local("Open-Sans"),
-          url(OpenSans/OpenSans-BoldItalic.ttf);
+    local("OpenSans"),
+    local("Open-Sans"),
+    url("./OpenSans/OpenSans-BoldItalic.ttf");
   font-weight: 700;
   font-style: italic;
 }
@@ -91,10 +83,9 @@
 @font-face {
   font-family: "Open Sans";
   src:
-          local("Open Sans"),
-          local("OpenSans"),
-          local("Open-Sans"),
-          url(OpenSans/OpenSans-ExtraBold.ttf);
+    local("OpenSans"),
+    local("Open-Sans"),
+    url("./OpenSans/OpenSans-ExtraBold.ttf");
   font-weight: 800;
   font-style: normal;
 }
@@ -102,16 +93,15 @@
 @font-face {
   font-family: "Open Sans";
   src:
-          local("Open Sans"),
-          local("OpenSans"),
-          local("Open-Sans"),
-          url(OpenSans/OpenSans-ExtraBoldItalic.ttf);
+    local("OpenSans"),
+    local("Open-Sans"),
+    url("./OpenSans/OpenSans-ExtraBoldItalic.ttf");
   font-weight: 800;
   font-style: italic;
 }
 
 body {
-  color: $textDefault;
+  color: $dark;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
