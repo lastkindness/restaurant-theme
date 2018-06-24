@@ -25,21 +25,14 @@ const recursiveSearch = (startPath, filter, callback) => {
 
 let pug = [];
 
-recursiveSearch(SRC, /.pug$/, (path) => {
-    let name;
-
-    if ((/win/i).test(process.platform)) name = path.split('\\');
-    else name = path.split('/');
-
-    name = name[name.length - 1].replace('.pug', '');
+recursiveSearch(SRC, /.pug$/, (filename) => {
+    const { name } = path.parse(filename);
 
     pug.push(new HtmlWebpackPlugin({
-        template: path,
+        template: filename,
         filename: `${name}.html`,
         minify: false
     }));
 });
 
 export default pug;
-
-
