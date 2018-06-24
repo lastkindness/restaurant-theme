@@ -12,17 +12,14 @@ header.header
                         each val, index in menu
                             li.header-nav-list-item
                                 a(href='#')= val
-                                if index === 1
-                                    .header-nav-list-item-dropdown
-                                        ul
-                                            each val, index in ['Daily menu', 'Season menu', 'Diet menu']
-                                                li
-                                                    a(href='#')= val
-                                                    if index === 1
-                                                        .header-nav-list-item-dropdown
-                                                            ul
-                                                                each val in ['Summer menu', 'Children menu', 'Diet menu', 'Special offers']
-                                                                    li
-                                                                        a(href='#')= val
-
-
+                                .header-nav-list-item-dropdown
+                                    ul
+                                        each val, index in ['Daily menu', 'Season menu', 'Diet menu']
+                                            li
+                                                a(href='#')= val
+                                                if index === 1
+                                                    .header-nav-list-item-dropdown
+                                                        ul
+                                                            each val, index in ['Summer menu', 'Children menu', 'Diet menu', 'Special offers']
+                                                                li
+                                                                    a(href='#')= val

@@ -19,13 +19,13 @@ export default [
                     name: `images/[path][name].[ext]`, /*${HASH}*/
                     limit: 8192
                 }
-            },
+            }/*,
             {
                 loader: 'img-loader',
                 options: {
                     enabled: NODE_ENV === 'build',
                 }
-            }
+            }*/
         ]
     },
     {
