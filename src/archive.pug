@@ -1,0 +1,20 @@
+extends components/layout
+
+
+block content
+  include components/archive/teaser.pug
+  main.archive
+    .container
+      h1 Archive page
+      .row
+        - var teasers =
+        -[
+        -{src: 'path', title: 'First title', content: 'Text', date: 'today'},
+        -{src: 'path', title: 'First title', content: 'Text', date: 'today'},
+        -{src: 'path', title: 'First title', content: 'Text', date: 'today'},
+        -{src: 'path', title: 'First title', content: 'Text', date: 'today'},
+        -{src: 'path', title: 'First title', content: 'Text', date: 'today'},
+        -{src: 'path', title: 'First title', content: 'Text', date: 'today'}
+        -];
+        each teaser in teasers
+          +teaser(teaser)
