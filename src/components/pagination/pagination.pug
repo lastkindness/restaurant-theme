@@ -1,0 +1,16 @@
+mixin pagination(info)
+  nav(aria-label="Page navigation")
+    ul.pagination
+      li.page-item
+        a.page-link.prev(href="#") &larr;
+      each page in pages
+        -if(page == 1)
+          li.page-item
+            a.page-link.current(href="#")= page
+        -else
+          li.page-item
+            a.page-link(href="#")= page
+      li.page-item
+        a.page-link.points(href="#") ...
+      li.page-item
+        a.page-link.next(href="#") &rarr;

@@ -5,6 +5,7 @@ block content
 
   include components/archive/teaser.pug
   include components/breadcrumbs/breadcrumbs.pug
+  include components/pagination/pagination.pug
 
   main.archive
     .container
@@ -22,3 +23,5 @@ block content
         -];
         each teaser in teasers
           +teaser(teaser)
+      - var pages = [1,2,3,4,5,6]
+      +pagination(pages)
