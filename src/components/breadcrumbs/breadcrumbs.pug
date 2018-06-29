@@ -1,0 +1,10 @@
+mixin breadcrumbs(...items)
+    nav(aria-label="breadcrumb")
+        ul.breadcrumb
+            - for( let i = 0; i < items.length; i++ )
+                -if ( i < items.length-1 )
+                    li.breadcrumb-item
+                        a(href="#")= items[i]
+                -else
+                    li.breadcrumb-item.active
+                        span= items[i]

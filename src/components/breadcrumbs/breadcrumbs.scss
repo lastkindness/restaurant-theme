@@ -1,0 +1,38 @@
+nav{
+
+  ul{
+
+    &.breadcrumb {
+      padding: 0px;
+      margin: 40px 0px;
+      li {
+
+        &.breadcrumb-item {
+          display: inline-block;
+
+          &:not(:first-child):before{
+            content: '/';
+            padding: 0px 2px;
+          }
+
+          a{
+            color: #000000;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14px;
+            text-decoration: unset;
+          }
+
+          &.active {
+            color: $themeColor;
+          }
+
+          span {
+
+          }
+
+        }
+      }
+    }
+  }
+}

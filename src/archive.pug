@@ -2,11 +2,14 @@ extends components/layout
 
 
 block content
+
   include components/archive/teaser.pug
+  include components/breadcrumbs/breadcrumbs.pug
   include components/pagination/pagination.pug
+
   main.archive
     .container
-
+      +breadcrumbs("Brie Restaurant", "Blog" , "Post" )
       h1 Archive page
       .row
         - var teasers =
