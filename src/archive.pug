@@ -3,7 +3,7 @@ extends components/layout
 
 block content
 
-  include components/archive/teaser.pug
+  include components/teaser/teaser.pug
   include components/breadcrumbs/breadcrumbs.pug
   include components/pagination/pagination.pug
 
@@ -12,16 +12,21 @@ block content
       +breadcrumbs("Brie Restaurant", "Blog" , "Post" )
       h1 Archive page
       .row
-        - var teasers =
-        -[
-        -{src: 'path', title: 'First title', content: 'Text', date: 'today'},
-        -{src: 'path', title: 'First title', content: 'Text', date: 'today'},
-        -{src: 'path', title: 'First title', content: 'Text', date: 'today'},
-        -{src: 'path', title: 'First title', content: 'Text', date: 'today'},
-        -{src: 'path', title: 'First title', content: 'Text', date: 'today'},
-        -{src: 'path', title: 'First title', content: 'Text', date: 'today'}
-        -];
-        each teaser in teasers
-          +teaser(teaser)
+        .col-lg-9
+          - var teasers =
+          -[
+          -{title: 'First title', content: 'Text1', date: 'today', tags: 'lol'},
+          -{title: 'Second title', content: 'Text2', date: 'today', tags: 'lol'},
+          -{title: 'Third title', content: 'Text3', date: 'today', tags: 'lol'},
+          -{title: 'Fourth title', content: 'Text4', date: 'today', tags: 'lol'},
+          -{title: 'Fifth title', content: 'Text5', date: 'today', tags: 'lol'},
+          -{title: 'Sixth title', content: 'Text6', date: 'today', tags: 'lol'}
+          -];
+          .row
+            each teaser in teasers
+              .col-lg-4
+                +teaser(teaser)
+        .col-lg-3
+          include components/sidebar/sidebar.pug
       - var pages = [1,2,3,4,5,6]
       +pagination(pages)

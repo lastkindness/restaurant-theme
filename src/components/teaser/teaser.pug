@@ -1,0 +1,17 @@
+include ../elements/date/date.pug
+include ../elements/tags/tags.pug
+
+mixin teaser(info)
+  .post-teaser
+    +date(info.date)
+
+    h2.post-title
+      a(href="#" rel="bookmark")= info.title
+
+    a(href="#")
+      img(src= require('./images/post/teaser.jpg'))
+
+    div.tags
+    +tags(info.tags)
+
+    div.content= info.content
