@@ -19,21 +19,24 @@
 // 4.2 Header
 @import "components/header/header";
 
-// 4.4 Breadcrumbs
-@import "components/breadcrumbs/breadcrumbs";
+// 4.3 Footer
+@import "components/footer/footer";
 
-// 4.3 Pagination
+// 4.4 Pagination
 @import "components/pagination/pagination";
 
-// 4.4 Post
-// 4.4.1 Teaser
+// 4.5 Breadcrumbs
+@import "components/breadcrumbs/breadcrumbs";
+
+// 4.6.0 Post
+// 4.6.1 Teaser
 @import "components/teaser/teaser";
 
-// 4.4.2 Date
+// 4.6.2 Date
 @import "components/elements/date/date";
 
-// 4.4.3 Tags
+// 4.6.3 Tags
 @import "components/elements/tags/tags";
 
-// 4.5 Sidebar
+// 4.7 Sidebar
 @import "components/sidebar/sidebar";

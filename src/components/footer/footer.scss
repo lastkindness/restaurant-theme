@@ -1,0 +1,21 @@
+.site-footer{
+  background-color: $dark;
+  padding: 50px 0 38px 0;
+  .footer-content{
+    padding: 0 0 45px 0;
+    color: #fff;
+  }
+  .copyright{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: $generalGrey;
+    a{
+      color: inherit;
+      text-decoration: none;
+      &:hover{
+        color: $white;
+      }
+    }
+  }
+}

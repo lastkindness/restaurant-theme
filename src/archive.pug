@@ -10,17 +10,17 @@ block content
   main.archive
     .container
       +breadcrumbs("Brie Restaurant", "Blog" , "Post" )
-      h1 Archive page
+      h1 Posts
       .row
         .col-lg-9
           - var teasers =
           -[
-          -{title: 'First title', content: 'Text1', date: 'today', tags: 'lol'},
-          -{title: 'Second title', content: 'Text2', date: 'today', tags: 'lol'},
-          -{title: 'Third title', content: 'Text3', date: 'today', tags: 'lol'},
-          -{title: 'Fourth title', content: 'Text4', date: 'today', tags: 'lol'},
-          -{title: 'Fifth title', content: 'Text5', date: 'today', tags: 'lol'},
-          -{title: 'Sixth title', content: 'Text6', date: 'today', tags: 'lol'}
+          -{id: 'article_1', title: 'First title', content: 'История успеха. Для того чтобы закончить тему необходимо всего лишь...', date: 'today', tags: 'lol'},
+          -{id: 'article_2', title: 'Second title', content: 'История успеха. Для того чтобы закончить тему необходимо всего лишь...', date: 'today', tags: 'lol'},
+          -{id: 'article_3', title: 'Third title', content: 'История успеха. Для того чтобы закончить тему необходимо всего лишь...', date: 'today', tags: 'lol'},
+          -{id: 'article_4', title: 'Fourth title', content: 'История успеха. Для того чтобы закончить тему необходимо всего лишь...', date: 'today', tags: 'lol'},
+          -{id: 'article_5', title: 'Fifth title', content: 'История успеха. Для того чтобы закончить тему необходимо всего лишь...', date: 'today', tags: 'lol'},
+          -{id: 'article_6', title: 'Sixth title', content: 'История успеха. Для того чтобы закончить тему необходимо всего лишь...', date: 'today', tags: 'lol'}
           -];
           .row
             each teaser in teasers
