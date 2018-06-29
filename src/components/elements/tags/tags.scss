@@ -1,0 +1,19 @@
+span.cat-tags-links{
+  span{
+    &.tags-links {
+      span {
+        &.screen-render-text {
+          a {
+
+            margin: 10px 5px;
+
+            &.entry-date-chip{
+              padding: 4px 20px;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

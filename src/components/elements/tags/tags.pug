@@ -1,2 +1,6 @@
 mixin tags(tags)
-  div
+  span.cat-tags-links
+    span.tags-links
+      span.screen-render-text Tags
+        each tag in tags
+          a.entry-date-chip(href="#" rel="tag")= tag
