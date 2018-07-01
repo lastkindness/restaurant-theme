@@ -1,4 +1,4 @@
-<?php function tags($tags) { ?>
+<?php function nu_tags($tags) { ?>
   <div class="cat-tags-links">
     <div class="tags-links">
       <span class="screen-render-text">Tags</span>
