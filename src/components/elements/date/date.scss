@@ -1,0 +1,41 @@
+.entry-meta {
+  a {
+    &.entry-date-chip {
+
+      time {
+
+        &.entry-date {
+
+        }
+
+        &.published {
+
+        }
+      }
+
+      time {
+        &.updated {
+
+        }
+      }
+    }
+    &.calendar:before{
+      content: "\F073";
+    }
+  }
+}
+
+.entry-date-chip {
+  border-radius: 20px;
+  border: 1px solid $darkerGrey;
+  background-color: white;
+  color: $lightGrey;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0px 12px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $extraLightColor;
+  }
+}

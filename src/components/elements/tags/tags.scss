@@ -1,0 +1,17 @@
+.cat-tags-links{
+  .tags-links {
+    .screen-render-text {
+      display: none;
+    }
+    a{
+      display: inline-block;
+      margin: 10px 5px 0 5px;
+      &:first-child{
+        margin: 10px 5px 10px 0;
+      }
+      &.entry-date-chip{
+        padding: 4px 20px;
+      }
+    }
+  }
+}

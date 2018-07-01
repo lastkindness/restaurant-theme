@@ -1,5 +1,9 @@
 @import "variables";
 
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 @font-face {
   font-family: "Open Sans";
   src:
@@ -110,39 +114,45 @@ body {
 }
 
 h1 {
-  font-size: 64px;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 1;
 }
 
-h3 {
+h2 {
   font-size: 22px;
   font-weight: 700;
   line-height: 1;
 }
 
-h4 {
+h3 {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
 }
 
-h5 {
+h4 {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.35;
 }
 
-h6 {
+h5 {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.14;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.big-title{
+  font-size: 64px;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 input,
@@ -178,4 +188,3 @@ acrnym {
 big {
   font-size: 1.25em;
 }
-
