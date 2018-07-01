@@ -5,7 +5,7 @@
     <div class="row flex-nowrap align-items-center justify-content-between">
       <div class="col-auto">
         <a class="header-logo" href="#">
-          <img src="/header/maxresdefault.jpg" alt="logo"/>
+          <img src="components/header/maxresdefault.jpg" alt="logo"/>
         </a>
       </div>
       <div class="col-auto">

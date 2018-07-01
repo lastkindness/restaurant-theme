@@ -1,6 +1,6 @@
 <footer class="site-footer">
     <div class="container">
-        <div class="site-footer-container"><a class="site-footer-logo" href="#"><img src="/img/logo.png" alt="logo"/></a>
+        <div class="site-footer-container"><a class="site-footer-logo" href="#"><img src="components/footer/img/logo.png" alt="logo"/></a>
             <ul class="social">
                 <li><a class="social-link" href="https://www.youtube.com" title="youtube">
                 <?php require "svg/youtube.svg" ?>
