@@ -1,0 +1,36 @@
+footer.site-footer
+    .container
+        .site-footer-container
+            a.site-footer-logo(href='#')
+                img(src=require('./img/logo.png') alt='logo')
+            ul.social
+                li: a(href="https://www.youtube.com" title="youtube").social-link
+                    include svg/youtube.svg
+                li: a(href="https://www.linkedin.com" title="linkedin").social-link
+                    include svg/linkedin.svg
+                li: a(href="https://www.facebook.com" title="facebook").social-link
+                    include svg/facebook.svg
+                li: a(href="https://www.instagram.com" title="instagram").social-link
+                    include svg/instagram.svg
+            h4.info-title
+                include svg/clock.svg
+                span.info-title-text Hours
+            p.info-text
+                | Monday - Friday: 7am - 6pm
+                br
+                | Saturday: 8am - 8pm
+                br
+                | Sunday: 8am - 6pm
+            h4.info-title
+                include svg/location.svg
+                span.info-title-text Location
+            p.info-text
+                | You can find us at 1234 Street Ave,
+                br
+                | Townsville, State, 01234
+            h4.info-title
+                include svg/help.svg
+                span.info-title-text Have questions?
+            p.info-text
+                | You can give us a call at (123) 456-7890 or email us at info@needlehookcoffee.com
+        .site-footer-authors Made with love by North Unicorn

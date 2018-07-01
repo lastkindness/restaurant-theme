@@ -1,0 +1,65 @@
+@import "generals/variables";
+@import "generals/mixins";
+
+.site-footer {
+  background-color: $dark;
+  color: $white;
+  padding-top: 80px;
+  padding-bottom: 35px;
+
+  @include reset-a;
+  @include reset-ul;
+  @include svg-text-color;
+
+  &-container {
+    display: grid;
+    grid-template: auto 100px / repeat(4, 1fr);
+    grid-auto-flow: column;
+  }
+
+  &-logo {
+    align-self: center;
+
+    img {
+      max-height: 24px;
+    }
+  }
+
+  .social {
+    display: flex;
+    align-self: center;
+
+    :nth-child(n+2) {
+      margin-left: 10px;
+    }
+  }
+
+  .social-link {
+    width: 46px;
+    height: 46px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info-title {
+    display: flex;
+    align-items: center;
+    color: #DEDEDE;
+    margin-top: 0;
+    margin-bottom: 17px;
+  }
+
+  .info-title-text {
+    margin-left: 10px;
+  }
+
+  .info-text {
+    color: #919191;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

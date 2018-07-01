@@ -13,9 +13,13 @@
 @import "./generals/typo";
 
 // 4.0 Components
+@import "components/layout";
+
 // 4.1 Page title
 @import "components/page-title/page-title";
 
-
 // 4.2 Header
 @import "components/header/header";
+
+// 4.3 Footer
+@import "components/footer/footer";
