@@ -72,11 +72,10 @@ export default [
         })
     },
     {
-        test: /\.pug$/,
+        test: /\.php$/,
         use: [
-            {
-                loader: 'pug-loader'
-            }
+            'html-loader',
+            'webpack-php-loader'
         ]
     }
 ];

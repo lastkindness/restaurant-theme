@@ -1,7 +1,7 @@
 import webpack from 'webpack';
 import { DIST, HASH, RELATIVE_PATH, SRC } from './settings';
 import loaders, { ETPStyles } from './loaders';
-import pug from './pug';
+import php from './php';
 
 export default {
     context: SRC,
@@ -17,6 +17,6 @@ export default {
     plugins: [
         new webpack.NoEmitOnErrorsPlugin(),
         ETPStyles,
-        ...pug
+        ...php,
     ]
 };
