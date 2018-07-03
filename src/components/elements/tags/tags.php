@@ -2,9 +2,9 @@
   <div class="cat-tags-links">
     <div class="tags-links">
       <span class="screen-render-text">Tags</span>
-      <?php foreach ($tags as $tag) { ?>
+      <?php foreach ($tags as $tag) : ?>
         <a class="entry-date-chip" href="#" rel="tag"><?php echo $tag; ?></a>
-      <?php } ?>
+      <?php endforeach; ?>
     </div>
 </div>
 <?php } ?>
