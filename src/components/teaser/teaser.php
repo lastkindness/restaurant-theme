@@ -1,11 +1,12 @@
 <?php
-if($post):
-  require_once getcwd() . "/src/components/elements/date/date.php";
-  require_once getcwd() . "/src/components/elements/tags/tags.php";
-?>
+if($post):?>
+
   <article id="article_<?php echo $key; ?>" class="post-teaser">
     <header class="entry-header">
-      <?php echo nu_date($post['date']); ?>
+      <?php
+          $date = $post['date'];
+          include(getcwd() . "/src/components/elements/date/date.php");
+      ?>
       <h2 class="post-title"><?php echo $post['title']; ?></h2>
     </header>
     <div class="post-thumbnail">
@@ -14,7 +15,10 @@ if($post):
       </a>
     </div>
     <div class="tags">
-      <?php echo nu_tags($post['tags']); ?>
+        <?php
+            $tags = $post['tags'];
+            include(getcwd() . "/src/components/elements/tags/tags.php");
+        ?>
     </div>
     <div class="entry-content">
       <p>
@@ -23,6 +27,9 @@ if($post):
       </p>
     </div>
   </article>
+
 <?php else: ?>
+
   <span>No post was found</span>
+
 <?php endif; ?>

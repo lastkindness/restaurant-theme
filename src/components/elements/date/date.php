@@ -1,4 +1,3 @@
-<?php function nu_date($date) { ?>
   <div class="entry-meta">
     <a class="entry-date-chip calendar" href="#" rel="bookmark">
       <time class="entry-date published" datetiem="">
@@ -11,4 +10,3 @@
       </time>
     </a>
   </div>
-<?php } ?>
