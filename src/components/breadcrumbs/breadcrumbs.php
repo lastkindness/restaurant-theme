@@ -2,11 +2,17 @@
   <nav aria-label="breadcrumb">
     <ul class="breadcrumb">
       <?php foreach ($breadcrumbs as $key => $breadcrumb):
-        $classes = ( $key != count($breadcrumbs)-1 ) ? 'breadcrumb-item active' : 'breadcrumb-item';
-      ?>
-        <li class="<?php echo $classes; ?>">
-          <a href="#"><?php echo $breadcrumb; ?></a>
-        </li>
+        $active = $key != count($breadcrumbs)-1; ?>
+
+            <li class="breadcrumb-item <?php echo $active ? '' :'active' ; ?>"><?php
+
+                echo $active ?
+                   '<a href="#">' . $breadcrumb . '</a>'
+                   :
+                   '<span>' . $breadcrumb . '</span>' ?>
+
+            </li>
+
       <?php endforeach; ?>
     </ul>
   </nav>
