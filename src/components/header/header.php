@@ -5,7 +5,7 @@
     <div class="row flex-nowrap align-items-center justify-content-between">
       <div class="col-auto">
         <a class="header-logo" href="#">
-          <img src="components/header/maxresdefault.jpg" alt="logo"/>
+          <img src="components/header/img/maxresdefault.jpg" alt="logo"/>
         </a>
       </div>
       <div class="col-auto">
@@ -36,6 +36,24 @@
             <?php } ?>
           </ul>
         </nav>
+      </div>
+      <div class="col-auto">
+        <div class="header-lang">
+          <span class="header-lang-current">EN</span>
+          <span class="header-lang-icon">
+            <?php require "svg/arrow-down.svg" ?>
+          </span>
+          <div class="header-lang-dropdown">
+            <ul class="header-lang-list">
+              <li class="header-lang-item">
+                <a href="#ru">RU</a>
+              </li>
+              <li class="header-lang-item">
+                <a href="#gr">GR</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>

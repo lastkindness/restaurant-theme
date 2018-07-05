@@ -1,7 +1,10 @@
 @import "generals/variables";
+@import "generals/mixins";
 
 .header {
   background-color: #000;
+  @include reset-ul;
+  @include reset-a;
   &-logo {
     img {
       max-height: 24px;
@@ -9,9 +12,6 @@
   }
   &-nav {
     &-list {
-      list-style: none;
-      margin: 0;
-      padding: 0;
       &-item {
         position: relative;
         display: inline-block;
@@ -62,11 +62,6 @@
           height: 0;
           overflow: hidden;
           transition: all .3s;
-          ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-          }
           li {
             position: relative;
             &:hover {
@@ -150,6 +145,65 @@
               }
             }
           }
+        }
+      }
+    }
+  }
+
+  &-lang {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 7px;
+
+    &-dropdown {
+      position: absolute;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      background-color: #131313;
+      white-space: nowrap;
+      top: 0;
+      height: 0;
+      overflow: hidden;
+      transition: height .3s;
+      top: 100%;
+      width: auto;
+      height: 0;
+      left: 0;
+    }
+
+    .header &-list { // ".header" for better specificity
+      padding: 14px 10px 14px 14px;
+    }
+
+    &-current {
+      color: $white;
+    }
+
+    &-icon {
+      width: 8px;
+      height: 5px;
+      fill: $white;
+      margin-left: 2px;
+
+      svg {
+        display: block;
+      }
+    }
+
+    &-item {
+      position: relative;
+      color: #919191;
+
+      &:hover {
+        color: $white;
+      }
+
+      & + & {
+        ::before {
+          content: "";
+          display: block;
+          border-top: 1px solid #3F3F3F;
+          margin: 5px 0;
         }
       }
     }
