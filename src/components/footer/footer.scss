@@ -4,21 +4,6 @@
 	padding-top: 80px;
 	padding-bottom: 35px;
 
-	a {
-
-		@include reset-a;
-	}
-
-	svg {
-
-		@include svg-text-color;
-	}
-
-	ul {
-
-		@include reset-ul;
-	}
-
 	&-container {
 		display: grid;
 		grid-template: auto 100px / repeat(4, 1fr);
@@ -26,7 +11,7 @@
 	}
 
 	&-logo {
-		align-self: center;
+		place-self: center start;
 
 		img {
 			max-height: 24px;
@@ -40,7 +25,11 @@
 			align-items: center;
 			color: #dedede;
 			margin-top: 0;
-			margin-bottom: 17px;
+			margin-bottom: 0;
+
+			svg {
+				fill: currentColor;
+			}
 		}
 
 		&-title-text {
@@ -50,7 +39,7 @@
 		&-text {
 			color: #919191;
 			line-height: 1.5;
-			margin-top: 0;
+			margin-top: 17px;
 			margin-bottom: 0;
 		}
 	}
