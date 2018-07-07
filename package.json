@@ -42,9 +42,14 @@
   "dependencies": {
     "baguettebox.js": "^1.10.0",
     "bootstrap": "^4.0.0",
+    "eslint": "^5.0.1",
+    "eslint-config-wordpress": "^2.0.0",
+    "eslint-plugin-import": "^2.13.0",
     "jquery": "^3.3.1",
     "jquery-mask-plugin": "^1.14.15",
     "jquery-ui": "^1.12.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "stylelint": "^9.3.0",
+    "stylelint-config-wordpress": "^13.0.0"
   }
 }

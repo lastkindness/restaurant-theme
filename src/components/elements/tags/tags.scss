@@ -1,38 +1,36 @@
 .tag {
-  &-list {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: -10px;
-  }
 
-  &-link {
-    padding: 4px 20px;
-    border-radius: 20px;
-    border: 1px solid $darkerGrey;
-    background-color: white;
-    color: $dark;
-    font-size: 14px;
-    font-weight: 400;
-    padding: 5px 13px;
-    text-decoration: none;
-    margin-bottom: 10px;
-    margin-left: 10px;
+	&-list {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-left: -10px;
+	}
 
-    &:hover {
-      background-color: $extraLightColor;
-    }
+	&-link {
+		border-radius: 20px;
+		border: 1px solid $darkerGrey;
+		background-color: $white;
+		color: $dark;
+		font-size: 14px;
+		font-weight: 400;
+		padding: 5px 13px;
+		text-decoration: none;
+		margin-bottom: 10px;
+		margin-left: 10px;
 
-    &:last-child {
-      margin-right: auto;
-    }
-  }
+		&:hover {
+			background-color: $extraLightColor;
+		}
 
-  
+		&:last-child {
+			margin-right: auto;
+		}
+	}
 }
 
 .screen-render-text {
-  display: none;
+	display: none;
 }

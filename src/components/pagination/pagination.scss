@@ -1,44 +1,45 @@
 .pagination {
-  display: flex;
-  justify-content: center;
-  margin: 50px 0;
-  padding: 5px;
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+	padding: 5px;
 
-  &-list {
-    @include reset-ul;
-  }
+	&-list {
 
-  &-item{
-    display: inline-block;
+		@include reset-ul;
+	}
 
-    & + & {
-      margin-left: 10px;
-    }
-  }
+	&-item {
+		display: inline-block;
 
-  &-link {
-    display: inline-block;
-    color: $lightGrey;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    line-height: 19px;
-    text-decoration: none;
+		& + & {
+			margin-left: 10px;
+		}
+	}
 
-    &:hover {
-      color: $themeColor;
-    }
+	&-link {
+		display: inline-block;
+		color: $lightGrey;
+		font-family: Roboto, sans-serif;
+		font-size: 14px;
+		line-height: 19px;
+		text-decoration: none;
 
-    &-current {
-      color: $dark;
-    }
+		&:hover {
+			color: $themeColor;
+		}
 
-    &-prev {
-      transform: scaleX(-1);
-    }
+		&-current {
+			color: $dark;
+		}
 
-    &-next,
-    &-prev {
-      fill: currentColor;
-    }
-  }
+		&-prev {
+			transform: scaleX(-1);
+		}
+
+		&-next,
+		&-prev {
+			fill: currentColor;
+		}
+	}
 }

@@ -1,22 +1,22 @@
 .date {
-  border-radius: 20px;
-  border: 1px solid $darkerGrey;
-  background-color: white;
-  color: $lightGrey;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 0px 12px;
-  text-decoration: none;
+	border-radius: 20px;
+	border: 1px solid $darkerGrey;
+	background-color: $white;
+	color: $lightGrey;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0 12px;
+	text-decoration: none;
 
-  &:hover {
-    background-color: $extraLightColor;
-  }
+	&:hover {
+		background-color: $extraLightColor;
+	}
 
-  & + & {
-    margin-left: 10px;
-  }
+	& + & {
+		margin-left: 10px;
+	}
 
-  &-icon {
-    fill: $lightGrey;
-  }
+	&-icon {
+		fill: $lightGrey;
+	}
 }

@@ -1,29 +1,37 @@
 .teaser {
-  &-title {
-    @include reset-a;
-  }
 
-  &-thumbnail{
-    img{
-      width: 100%;
-    }
-  }
+	&-title {
 
-  &-content{
-    margin-bottom: 50px;
-    a {
-      color: $themeColor;
-      font-weight: 600;
-      line-height: 1.32;
-      letter-spacing: normal;
-      text-decoration: none;
-    }
-    p {
-      margin: 10px 0;
-    }
-  }
+		a {
 
-  &-read-more-icon {
-    fill: $themeColor;
-  }
+			@include reset-a;
+		}
+	}
+
+	&-thumbnail {
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&-content {
+		margin-bottom: 50px;
+
+		a {
+			color: $themeColor;
+			font-weight: 600;
+			line-height: 1.32;
+			letter-spacing: normal;
+			text-decoration: none;
+		}
+
+		p {
+			margin: 10px 0;
+		}
+	}
+
+	&-read-more-icon {
+		fill: $themeColor;
+	}
 }

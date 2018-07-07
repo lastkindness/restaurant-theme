@@ -1,5 +1,6 @@
 {
   // PHPCS
   "phpcs.enable":   true,
-  "phpcs.standard": "WordPress"
+  "phpcs.standard": "WordPress",
+  "eslint.enable": true
 }

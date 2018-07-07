@@ -1,165 +1,163 @@
-@import "variables";
-
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
-
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 @font-face {
-  font-family: "Open Sans";
-  src:
-    local("OpenSans"),
-    local("Open-Sans"),
-    url("./OpenSans/OpenSans-Light.ttf");
-  font-weight: 300;
-  font-style: normal;
+	font-family: "Open Sans";
+	src:
+		local("OpenSans"),
+		local("Open-Sans"),
+		url(./OpenSans/OpenSans-Light.ttf);
+	font-weight: 300;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src:
-    local("OpenSans"),
-    local("Open-Sans"),
-    url("./OpenSans/OpenSans-LightItalic.ttf");
-  font-weight: 300;
-  font-style: italic;
+	font-family: "Open Sans";
+	src:
+		local("OpenSans"),
+		local("Open-Sans"),
+		url(./OpenSans/OpenSans-LightItalic.ttf);
+	font-weight: 300;
+	font-style: italic;
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src:
-    local("OpenSans"),
-    local("Open-Sans"),
-    url("./OpenSans/OpenSans-Regular.ttf");
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Open Sans";
+	src:
+		local("OpenSans"),
+		local("Open-Sans"),
+		url(./OpenSans/OpenSans-Regular.ttf);
+	font-weight: 400;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src:
-    local("OpenSans"),
-    local("Open-Sans"),
-    url("./OpenSans/OpenSans-Italic.ttf");
-  font-weight: 400;
-  font-style: italic;
+	font-family: "Open Sans";
+	src:
+		local("OpenSans"),
+		local("Open-Sans"),
+		url(./OpenSans/OpenSans-Italic.ttf);
+	font-weight: 400;
+	font-style: italic;
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src:
-    local("OpenSans"),
-    local("Open-Sans"),
-    url("./OpenSans/OpenSans-Semibold.ttf");
-  font-weight: 600;
-  font-style: normal;
+	font-family: "Open Sans";
+	src:
+		local("OpenSans"),
+		local("Open-Sans"),
+		url(./OpenSans/OpenSans-Semibold.ttf);
+	font-weight: 600;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src:
-    local("OpenSans"),
-    local("Open-Sans"),
-    url("./OpenSans/OpenSans-SemiboldItalic.ttf");
-  font-weight: 600;
-  font-style: italic;
+	font-family: "Open Sans";
+	src:
+		local("OpenSans"),
+		local("Open-Sans"),
+		url(./OpenSans/OpenSans-SemiboldItalic.ttf);
+	font-weight: 600;
+	font-style: italic;
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src:
-    local("OpenSans"),
-    local("Open-Sans"),
-    url("./OpenSans/OpenSans-Bold.ttf");
-  font-weight: 700;
-  font-style: normal;
+	font-family: "Open Sans";
+	src:
+		local("OpenSans"),
+		local("Open-Sans"),
+		url(./OpenSans/OpenSans-Bold.ttf);
+	font-weight: 700;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src:
-    local("OpenSans"),
-    local("Open-Sans"),
-    url("./OpenSans/OpenSans-BoldItalic.ttf");
-  font-weight: 700;
-  font-style: italic;
+	font-family: "Open Sans";
+	src:
+		local("OpenSans"),
+		local("Open-Sans"),
+		url(./OpenSans/OpenSans-BoldItalic.ttf);
+	font-weight: 700;
+	font-style: italic;
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src:
-    local("OpenSans"),
-    local("Open-Sans"),
-    url("./OpenSans/OpenSans-ExtraBold.ttf");
-  font-weight: 800;
-  font-style: normal;
+	font-family: "Open Sans";
+	src:
+		local("OpenSans"),
+		local("Open-Sans"),
+		url(./OpenSans/OpenSans-ExtraBold.ttf);
+	font-weight: 800;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src:
-    local("OpenSans"),
-    local("Open-Sans"),
-    url("./OpenSans/OpenSans-ExtraBoldItalic.ttf");
-  font-weight: 800;
-  font-style: italic;
+	font-family: "Open Sans";
+	src:
+		local("OpenSans"),
+		local("Open-Sans"),
+		url(./OpenSans/OpenSans-ExtraBoldItalic.ttf);
+	font-weight: 800;
+	font-style: italic;
 }
 
 body {
-  color: $dark;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.4;
-  font-style: normal;
+	color: $dark;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.4;
+	font-style: normal;
 }
 
 h1 {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1;
 }
 
 h2 {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 1;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1;
 }
 
 h3 {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.16;
 }
 
 h4 {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.35;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.35;
 }
 
 h5 {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.14;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.14;
 }
 
 h6 {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.1;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.1;
 }
 
-.big-title{
-  font-size: 64px;
-  font-weight: 800;
-  text-transform: uppercase;
+.big-title {
+	font-size: 64px;
+	font-weight: 800;
+	text-transform: uppercase;
 }
 
 input,
 textarea {
-  &::placeholder {
-    color: $lightColor;
-  }
+
+	&::placeholder {
+		color: $lightColor;
+	}
 }
 
 dfn,
@@ -170,21 +168,21 @@ mark,
 ins,
 q,
 blockquote {
-  font-style: italic;
+	font-style: italic;
 }
 
 p,
 blockquote,
 q {
-  margin: 25px 0;
+	margin: 25px 0;
 }
 
 abbr,
-acrnym {
-  border-bottom: 1px dotted $lightColor;
-  cursor: help;
+acronym {
+	border-bottom: 1px dotted $lightColor;
+	cursor: help;
 }
 
 big {
-  font-size: 1.25em;
+	font-size: 1.25em;
 }
