@@ -1,4 +1,26 @@
-<?php $menu = [ 'HOME', 'MENU', 'BLOG', 'RESERVATION', 'GALLERY', 'CONTACTS' ]; ?>
+<?php
+require 'src/components/header/menu.php';
+
+function recursive_menu( $menu, $depth ) { ?>
+	<?php if ( 0 === $depth ) { ?>
+		<ul class="site-header-nav-list">
+	<?php } else { ?>
+		<ul>
+	<?php } ?>
+		<?php foreach ( $menu as $index => $item ) { ?>
+			<?php if ( 0 === $depth ) { ?>
+				<li class="site-header-nav-list-item">
+			<?php } else { ?>
+				<li>
+			<?php } ?>
+				<a href="#"><?php echo $item['label']; ?></a>
+				<div class="site-header-nav-list-item-dropdown">
+					<?php recursive_menu( $item['menu'], $depth + 1 ); ?>
+				</div>
+			</li>
+		<?php } ?>
+	</ul>
+<?php } ?>
 
 <header class="site-header">
 	<div class="container">
@@ -10,50 +32,11 @@
 			</div>
 			<div class="col-auto">
 				<nav class="site-header-nav">
-					<ul class="site-header-nav-list">
-						<?php foreach ( $menu as $index => $val ) { ?>
-							<li class="site-header-nav-list-item">
-								<a href="#"><?php echo $val; ?></a>
-								<div class="site-header-nav-list-item-dropdown">
-									<ul>
-										<?php foreach ( [ 'Daily menu', 'Season menu', 'Diet menu' ] as $index => $val ) { ?>
-											<li>
-												<a href="#"><?php echo $val; ?></a>
-												<?php if ( 1 === $index ) { ?>
-													<div class="site-header-nav-list-item-dropdown">
-														<ul>
-															<?php foreach ( [ 'Summer menu', 'Children menu', 'Diet menu', 'Special offers' ] as $index => $val ) { ?>
-																<li><a href="#"><?php echo $val; ?></a></li>
-															<?php } ?>
-														</ul>
-													</div>
-												<?php } ?>
-											</li>
-										<?php } ?>
-									</ul>
-								</div>
-							</li>
-						<?php } ?>
-					</ul>
+					<?php recursive_menu( $menu, 0 ); ?>
 				</nav>
 			</div>
 			<div class="col-auto">
-				<div class="site-header-lang">
-					<span class="site-header-lang-current">EN</span>
-					<span class="site-header-lang-icon">
-						<?php require 'svg/arrow-down.svg'; ?>
-					</span>
-					<div class="site-header-lang-dropdown">
-						<ul class="site-header-lang-list">
-							<li class="site-header-lang-item">
-								<a href="#ru">RU</a>
-							</li>
-							<li class="site-header-lang-item">
-								<a href="#gr">GR</a>
-							</li>
-						</ul>
-					</div>
-				</div>
+				<?php require 'src/components/lang/lang.php'; ?>
 			</div>
 		</div>
 	</div>

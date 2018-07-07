@@ -4,7 +4,7 @@ export default function initDropdown() {
     for (let i = 0; i < menuListItem.length; i++)
         new HeaderMenuListItem(menuListItem[i]);
 
-    new Dropdown(document.querySelector('.site-header-lang-dropdown'));
+    new Dropdown(document.querySelector('.lang-dropdown'));
 }
 
 const DROPDOWN_TRANSITION_DURATION = 300;
