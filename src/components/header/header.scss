@@ -1,10 +1,11 @@
 @import "generals/variables";
 @import "generals/mixins";
 
-.header {
+.site-header {
   background-color: #000;
-  @include reset-ul;
+
   @include reset-a;
+
   &-logo {
     img {
       max-height: 24px;
@@ -12,6 +13,8 @@
   }
   &-nav {
     &-list {
+      @include reset-ul;
+
       &-item {
         position: relative;
         display: inline-block;
@@ -29,6 +32,7 @@
           padding: 0 25px;
           text-decoration: none;
         }
+
         &:hover {
           & > a {
             color: #ffffff;
@@ -39,7 +43,9 @@
             color: #e9a92d;
           }
         }
-        &:before, &:last-of-type:after {
+
+        &:before,
+        &:last-of-type:after {
           content: '';
           position: absolute;
           top: 50%;
@@ -49,10 +55,12 @@
           left: 0;
           background-color: #3c3c3c;
         }
+
         &:last-of-type:after {
           left: unset;
           right: 0;
         }
+
         &-dropdown {
           position: absolute;
           box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -61,7 +69,13 @@
           top: 0;
           height: 0;
           overflow: hidden;
-          transition: all .3s;
+          transition: height .3s;
+          z-index: 1;
+
+          ul {
+            @include reset-ul;
+          }
+
           li {
             position: relative;
             &:hover {
@@ -72,6 +86,7 @@
               }
             }
           }
+
           a {
             color: #ffffff;
             font-family: "Open Sans", sans-serif;
@@ -85,6 +100,7 @@
             width: 100%;
             position: relative;
             overflow: hidden;
+
             &:before {
               content: '';
               position: absolute;
@@ -95,6 +111,7 @@
               border-radius: 50%;
               background-color: #e9a92d;
             }
+
             &:after {
               content: '';
               position: absolute;
@@ -105,6 +122,7 @@
               background-color: #3c3c3c;
             }
           }
+
           li:last-of-type {
             a {
               &:after {
@@ -113,6 +131,7 @@
             }
           }
         }
+
         & > &-dropdown {
           top: 100%;
           width: auto;
@@ -120,7 +139,7 @@
           &.left {
             left: 0;
             border-left: 1px solid #e9a92d;
-            .header-nav-list-item-dropdown {
+            .site-header-nav-list-item-dropdown {
               border-left: 1px solid #e9a92d;
               left: 100%;
             }
@@ -134,7 +153,7 @@
           &.right {
             right: 0;
             border-right: 1px solid #e9a92d;
-            .header-nav-list-item-dropdown {
+            .site-header-nav-list-item-dropdown {
               border-right: 1px solid #e9a92d;
               right: 100%;
             }
@@ -171,7 +190,8 @@
       left: 0;
     }
 
-    .header &-list { // ".header" for better specificity
+    &-list {
+      @include reset-ul;
       padding: 14px 10px 14px 14px;
     }
 

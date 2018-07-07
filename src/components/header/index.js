@@ -1,10 +1,10 @@
 export default function initDropdown() {
-    const menuListItem = document.querySelectorAll('.header-nav-list-item');
+    const menuListItem = document.querySelectorAll('.site-header-nav-list-item');
 
     for (let i = 0; i < menuListItem.length; i++)
         new HeaderMenuListItem(menuListItem[i]);
 
-    new Dropdown(document.querySelector('.header-lang-dropdown'));
+    new Dropdown(document.querySelector('.site-header-lang-dropdown'));
 }
 
 const DROPDOWN_TRANSITION_DURATION = 300;
@@ -12,7 +12,7 @@ const DROPDOWN_TRANSITION_DURATION = 300;
 class HeaderMenuListItem {
     constructor(item) {
         this.item = item;
-        this.parentDropdown = item.querySelector('.header-nav-list-item-dropdown');
+        this.parentDropdown = item.querySelector('.site-header-nav-list-item-dropdown');
 
         if (this.parentDropdown) {
             this.dropdownPositioningClass = 'left';
@@ -38,7 +38,7 @@ class HeaderMenuListItem {
         const listItems = dropdown.children[0].children;
 
         for (let i = 0; i < listItems.length; i++) {
-            const childDropdown = listItems[i].querySelector('.header-nav-list-item-dropdown');
+            const childDropdown = listItems[i].querySelector('.site-header-nav-list-item-dropdown');
 
             if (childDropdown) {
                 new Dropdown(childDropdown);

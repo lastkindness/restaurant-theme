@@ -1,10 +1,10 @@
-<?php function nu_tags($tags) { ?>
-  <div class="cat-tags-links">
-    <div class="tags-links">
-      <span class="screen-render-text">Tags</span>
-      <?php foreach ($tags as $tag) { ?>
-        <a class="entry-date-chip" href="#" rel="tag"><?php echo $tag; ?></a>
-      <?php } ?>
-    </div>
-</div>
+<?php function nu_tags( $tags ) { ?>
+	<div class="tag">
+		<span class="screen-render-text">Tags</span>
+		<div class="tag-list">
+			<?php foreach ( $tags as $tag ) { ?>
+				<a class="tag-link" href="#" rel="tag"><?php echo $tag; ?></a>
+			<?php } ?>
+		</div>
+	</div>
 <?php } ?>

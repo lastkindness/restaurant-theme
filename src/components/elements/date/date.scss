@@ -1,31 +1,4 @@
-.entry-meta {
-  a {
-    &.entry-date-chip {
-
-      time {
-
-        &.entry-date {
-
-        }
-
-        &.published {
-
-        }
-      }
-
-      time {
-        &.updated {
-
-        }
-      }
-    }
-    &.calendar:before{
-      content: "\F073";
-    }
-  }
-}
-
-.entry-date-chip {
+.date {
   border-radius: 20px;
   border: 1px solid $darkerGrey;
   background-color: white;
@@ -37,5 +10,13 @@
 
   &:hover {
     background-color: $extraLightColor;
+  }
+
+  & + & {
+    margin-left: 10px;
+  }
+
+  &-icon {
+    fill: $lightGrey;
   }
 }

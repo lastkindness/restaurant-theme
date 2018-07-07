@@ -1,17 +1,38 @@
-.cat-tags-links{
-  .tags-links {
-    .screen-render-text {
-      display: none;
+.tag {
+  &-list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -10px;
+  }
+
+  &-link {
+    padding: 4px 20px;
+    border-radius: 20px;
+    border: 1px solid $darkerGrey;
+    background-color: white;
+    color: $dark;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 13px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    &:hover {
+      background-color: $extraLightColor;
     }
-    a{
-      display: inline-block;
-      margin: 10px 5px 0 5px;
-      &:first-child{
-        margin: 10px 5px 10px 0;
-      }
-      &.entry-date-chip{
-        padding: 4px 20px;
-      }
+
+    &:last-child {
+      margin-right: auto;
     }
   }
+
+  
+}
+
+.screen-render-text {
+  display: none;
 }

@@ -1,0 +1,5 @@
+{
+  // PHPCS
+  "phpcs.enable":   true,
+  "phpcs.standard": "WordPress"
+}
