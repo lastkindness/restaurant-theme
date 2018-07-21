@@ -1,6 +1,12 @@
 <?php ob_start(); ?>
 
 <main>
+	<?php
+	$title = 'Our blog';
+	$title_content = "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind";
+	$image_url = 'components/page-title/img/archive.jpg';
+	require 'components/page-title/page-title.php';
+	?>
 	<div class="container">
 		<?php
 		$breadcrumbs =
