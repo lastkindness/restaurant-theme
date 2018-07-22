@@ -1,42 +1,43 @@
-<?php $menu = ['HOME', 'MENU', 'BLOG', 'RESERVATION', 'GALLERY', 'CONTACTS']; ?>
+<?php
+require 'src/components/header/menu.php';
 
-<header class="header">
-  <div class="container">
-    <div class="row flex-nowrap align-items-center justify-content-between">
-      <div class="col-auto">
-        <a class="header-logo" href="#">
-          <img src="components/header/maxresdefault.jpg" alt="logo"/>
-        </a>
-      </div>
-      <div class="col-auto">
-        <nav class="header-nav">
-          <ul class="header-nav-list">
-            <?php foreach ($menu as $index => $val) { ?>
-              <li class="header-nav-list-item">
-                <a href="#"><?php echo $val ?></a>
-                <div class="header-nav-list-item-dropdown">
-                  <ul>
-                    <?php foreach (['Daily menu', 'Season menu', 'Diet menu'] as $index => $val) { ?>
-                      <li>
-                        <a href="#"><?php echo $val ?></a>
-                        <?php if ($index == 1) { ?>
-                          <div class="header-nav-list-item-dropdown">
-                            <ul>
-                              <?php foreach (['Summer menu', 'Children menu', 'Diet menu', 'Special offers'] as $index => $val) { ?>
-                                <li><a href="#"><?php echo $val ?></a></li>
-                              <?php } ?>
-                            </ul>
-                          </div>
-                        <?php } ?>
-                      </li>
-                    <?php } ?>
-                  </ul>
-                </div>
-              </li>
-            <?php } ?>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
+function recursive_menu( $menu, $depth ) { ?>
+	<?php if ( 0 === $depth ) { ?>
+		<ul class="site-header-nav-list">
+	<?php } else { ?>
+		<ul>
+	<?php } ?>
+		<?php foreach ( $menu as $index => $item ) { ?>
+			<?php if ( 0 === $depth ) { ?>
+				<li class="site-header-nav-list-item">
+			<?php } else { ?>
+				<li>
+			<?php } ?>
+				<a href="#"><?php echo $item['label']; ?></a>
+				<div class="site-header-nav-list-item-dropdown">
+					<?php recursive_menu( $item['menu'], $depth + 1 ); ?>
+				</div>
+			</li>
+		<?php } ?>
+	</ul>
+<?php } ?>
+
+<header class="site-header">
+	<div class="container">
+		<div class="row flex-nowrap align-items-center justify-content-between">
+			<div class="col-auto">
+				<a class="site-header-logo" href="#">
+					<img src="components/header/img/maxresdefault.jpg" alt="logo"/>
+				</a>
+			</div>
+			<div class="col-auto">
+				<nav class="site-header-nav">
+					<?php recursive_menu( $menu, 0 ); ?>
+				</nav>
+			</div>
+			<div class="col-auto">
+				<?php require 'src/components/lang/lang.php'; ?>
+			</div>
+		</div>
+	</div>
 </header>

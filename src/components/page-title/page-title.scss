@@ -1,27 +1,56 @@
-@import "../../generals/variables";
+.page_title {
+	background-color: $dark;
 
-.pagetitle {
-  background-color: $dark;
-  h1 {
-    color: $white;
-    position: relative;
-    margin: 0;
-    padding-left: 13px;
-    &:before {
-      content: "";
-      display: inline-block;
-      position: absolute;
-      height: 65%;
-      width: 3px;
-      background-color: $themeColor;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-  }
-  p {
-    color: $lightColor;
-    margin: 0;
-    max-width: 428px;
-  }
+	&-wrapper{
+		position: relative;
+		&-content{
+			position: absolute;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    width: 100%;
+			z-index: 999;
+		}
+		&-image{
+			position: relative;
+			text-align: right;
+			background-color: #000;
+			img{
+				width: auto;
+				max-width: 60%;
+				height: auto;
+				display: inline-block;
+				opacity: 0.6;
+			}
+		}
+	}
+
+	h1 {
+		color: $white;
+		position: relative;
+		margin: 0;
+		text-transform: uppercase;
+		padding-left: 13px;
+		font-size: 64px;
+		line-height: 64px;
+
+		&::before {
+			content: "";
+			display: inline-block;
+			position: absolute;
+			height: 65%;
+			width: 3px;
+			background-color: $themeColor;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+
+	p {
+		color: $lightColor;
+		margin: 20px 0 0 0;
+		line-height: 20px;
+		// max-width: 428px;
+		width: 50%;
+	}
 }

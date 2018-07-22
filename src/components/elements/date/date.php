@@ -1,12 +1,19 @@
-  <div class="entry-meta">
-    <a class="entry-date-chip calendar" href="#" rel="bookmark">
-      <time class="entry-date published" datetiem="">
-        <?php echo $date; ?>
-      </time>
+
+<div class="entry-meta">
+    <a class="date" href="#" rel="bookmark">
+        <span class="date-icon"><?php include 'svg/date.svg'; ?></span>
+        <time class="date-text date-text-published" datetiem="">
+            <?php echo $date; ?>
+        </time>
     </a>
-    <a class="entry-date-chip" href="#" rel="bookmark">
-      <time class="updated" datetime="">
-        <?php echo $date; ?>
-      </time>
+    <a class="date" href="#" rel="bookmark">
+        <span class="date-icon"><?php include 'svg/date.svg'; ?></span>
+        <time class="date-text date-text-updated" datetiem="">
+            <?php echo $date; ?>
+        </time>
     </a>
-  </div>
+<!--    --><?php //cp_date( $date, 'published' ); ?>
+<!--    --><?php //cp_date( $date, 'updated' ); ?>
+</div>
+
+

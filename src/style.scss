@@ -1,5 +1,6 @@
+@import "generals/variables";
+@import "generals/mixins";
 @import "./generals/description.scss";
-
 @import "./generals/table-of-contents";
 
 // 1.0 Normalize
@@ -13,16 +14,26 @@
 @import "./generals/typo";
 
 // 4.0 Components
+// 4.1 Components layout
 @import "components/layout";
+
+// 4.2 Contacts
+@import "components/contacts";
 
 // 4.1 Page title
 @import "components/page-title/page-title";
 
-// 4.2 Header
+// 4.2.0 Header
 @import "components/header/header";
 
-// 4.3 Footer
+// 4.2.1 Lang
+@import "components/lang/lang";
+
+// 4.3.0 Footer
 @import "components/footer/footer";
+
+// 4.3.1 Social
+@import "components/social/social";
 
 // 4.4 Pagination
 @import "components/pagination/pagination";
@@ -42,3 +53,6 @@
 
 // 4.7 Sidebar
 @import "components/sidebar/sidebar";
+
+//  4.8 Post Navigation
+@import "components/post-navigation/post-navigation";
