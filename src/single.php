@@ -56,6 +56,7 @@
                                 <?php require 'components/post-navigation/post-navigation.php'; ?>
 
                             </article>
+                            <?php require 'components/comments/comments.php'; ?>
                         </main>
                     </div>
                     <div class="col-lg-3">
