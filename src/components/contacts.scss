@@ -1,5 +1,19 @@
 .contacts_wrapper{
   position: relative;
+
+  .contacts-2_socials{
+    color: white;
+    background-color: black;
+
+    .contacts_wrapper-contacts{
+      margin: 67px 0px 0px 52px;
+
+      p{
+        color: $areYouGreingMe;
+      }
+    }
+  }
+
   &-contacts{
     display: flex;
     &-info{
@@ -36,5 +50,17 @@
     width: 50%;
     height: 100%;
     background-color: #e6e6e6;
+
+    &_2{
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #e6e6e6;
+    }
   }
+
+
 }
+

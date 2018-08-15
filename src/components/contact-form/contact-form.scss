@@ -1,0 +1,29 @@
+.contacts-2_form{
+  text-align: center;
+  margin: 90px 0px;
+
+
+  .social{
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    a{
+      text-decoration: $oneMoreGray;
+      color: $oneMoreGray;
+
+      svg{
+        fill:$oneMoreGray;
+      }
+    }
+    li:hover{
+      a{
+        transition: 1.5s;
+        text-decoration: black;
+        color: black;
+        svg{
+          fill:black;
+        }
+      }
+    }
+  }
+}
